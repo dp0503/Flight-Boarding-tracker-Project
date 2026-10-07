@@ -86,9 +86,13 @@ The project demonstrates how DAA concepts can be applied to a practical passenge
 
 Member| GitHub
 Devarsh| "@dp0503" (https://github.com/dp0503)
+
 Dhruv| "@dhruvkabra05" (https://github.com/dhruvkabra05)
+
 Krishna| "@krishnaa0212" (https://github.com/krishnaa0212)
+
 Prishi| "@Prishii17" (https://github.com/Prishii17)
+
 Vishesh| "@visheshjainz" (https://github.com/visheshjainz)
 
 🎓 Academic Project
