@@ -2,6 +2,7 @@
 
 «A web-based academic project developed to apply Data Structures & Algorithms (DAA) concepts in a practical application.»
 
+<< our project is live on - "https://flight-boarding-tracker.vercel.app/" >>
 📌 About
 
 This project is a Flight Boarding Management System created for our academic subject using HTML, CSS, and JavaScript.
