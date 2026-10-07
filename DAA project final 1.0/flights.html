@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Flights - Flight Boarding Tracker</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar inner-top"><div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">✈</span><span><strong>Flight Boarding</strong><small>TRACKER</small></span></a><nav class="main-nav"><a href="index.html">Dashboard</a><a class="active" href="flights.html">Flights</a><a href="passengers.html">Passengers</a><a href="boarding.html">Boarding</a><a href="sorting.html">Sorting Algorithms</a><a href="search.html">Search</a><a href="about.html">About</a></nav></div></header>
+<main class="page">
+<div class="container">
+<div class="page-heading"><div><p class="eyebrow dark">Flight Management</p><h1>Flights</h1><p>Add, edit, delete and view flight information.</p></div><button class="btn dark-btn">+ Add Flight</button></div>
+<div class="form-card">
+<h2>Add Flight</h2><div class="form-grid">
+<label>Flight Number<input placeholder="AI-101"></label><label>Airline<input placeholder="Air India"></label><label>Source Airport<input placeholder="AMD"></label><label>Destination Airport<input placeholder="BOM"></label><label>Departure Time<input type="datetime-local"></label><label>Arrival Time<input type="datetime-local"></label><label>Gate<input placeholder="A12"></label><label>Terminal<input placeholder="2"></label><label>Status<select><option>Scheduled</option><option>Boarding</option><option>Departed</option><option>Delayed</option><option>Cancelled</option><option>Arrived</option></select></label>
+</div><button class="btn primary-btn">Save Flight</button></div>
+<div class="table-wrap"><table><thead><tr><th>Flight</th><th>Airline</th><th>Source</th><th>Destination</th><th>Departure</th><th>Gate</th><th>Status</th><th>Actions</th></tr></thead><tbody>
+<tr><td><b>AI-101</b></td><td>Air India</td><td>AMD</td><td>BOM</td><td>10:30 AM</td><td>A12</td><td><span class="badge green">Boarding</span></td><td><button class="small-btn">Edit</button><button class="small-btn danger">Delete</button></td></tr>
+<tr><td><b>6E-245</b></td><td>IndiGo</td><td>DEL</td><td>BLR</td><td>12:15 PM</td><td>B04</td><td><span class="badge blue">Scheduled</span></td><td><button class="small-btn">Edit</button><button class="small-btn danger">Delete</button></td></tr>
+<tr><td><b>UK-832</b></td><td>Vistara</td><td>BOM</td><td>DEL</td><td>02:40 PM</td><td>C08</td><td><span class="badge orange">Delayed</span></td><td><button class="small-btn">Edit</button><button class="small-btn danger">Delete</button></td></tr>
+</tbody></table></div>
+</div></main>
+<footer><div class="container footer-inner"><b>Flight Boarding Tracker</b><span>Flight Management</span></div></footer>
+    <script src="js/script.js"></script>
+</body></html>

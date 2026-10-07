@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Passengers - Flight Boarding Tracker</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar inner-top"><div class="container nav"><a class="brand" href="index.html"><span class="brand-mark">✈</span><span><strong>Flight Boarding</strong><small>TRACKER</small></span></a><nav class="main-nav"><a href="index.html">Dashboard</a><a href="flights.html">Flights</a><a class="active" href="passengers.html">Passengers</a><a href="boarding.html">Boarding</a><a href="sorting.html">Sorting Algorithms</a><a href="search.html">Search</a><a href="about.html">About</a></nav></div></header>
+<main class="page"><div class="container">
+<div class="page-heading"><div><p class="eyebrow dark">Passenger Management</p><h1>Passengers</h1><p>Manage passenger records and boarding information.</p></div><button class="btn dark-btn">+ Add Passenger</button></div>
+<div class="form-card"><h2>Add Passenger</h2><div class="form-grid">
+<label>Passenger ID<input placeholder="P1001"></label><label>Passenger Name<input placeholder="Rahul Patel"></label><label>Flight Number<input placeholder="AI-101"></label><label>Seat Number<input placeholder="12A"></label><label>Boarding Group<input placeholder="A"></label><label>Priority<select><option>1 - Highest</option><option>2</option><option>3</option><option>4</option><option>5 - Normal</option></select></label><label>Passenger Type<select><option>Normal</option><option>Senior Citizen</option><option>Child</option><option>Special Assistance</option></select></label><label>Boarding Status<select><option>Waiting</option><option>Boarded</option><option>Not Boarded</option><option>Departed</option></select></label>
+</div><button class="btn primary-btn">Save Passenger</button></div>
+<div class="table-wrap"><table><thead><tr><th>ID</th><th>Name</th><th>Flight</th><th>Seat</th><th>Group</th><th>Priority</th><th>Type</th><th>Status</th><th>Actions</th></tr></thead><tbody>
+<tr><td><b>P1001</b></td><td>Rahul Patel</td><td>AI-101</td><td>12A</td><td>A</td><td>2</td><td>Senior Citizen</td><td><span class="badge green">Boarded</span></td><td><button class="small-btn">Edit</button></td></tr>
+<tr><td><b>P1002</b></td><td>Priya Shah</td><td>AI-101</td><td>16C</td><td>B</td><td>5</td><td>Normal</td><td><span class="badge blue">Waiting</span></td><td><button class="small-btn">Edit</button></td></tr>
+<tr><td><b>P1003</b></td><td>Aarav Mehta</td><td>AI-101</td><td>08B</td><td>A</td><td>3</td><td>Child</td><td><span class="badge blue">Waiting</span></td><td><button class="small-btn">Edit</button></td></tr>
+</tbody></table></div>
+</div></main><footer><div class="container footer-inner"><b>Flight Boarding Tracker</b><span>Passenger Management</span></div></footer>    <script src="js/script.js"></script>
+</body></html>
