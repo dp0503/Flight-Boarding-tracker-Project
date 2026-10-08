@@ -10,7 +10,7 @@ This project is a **Flight Boarding Management System** created for our academic
 
 It combines passenger and flight management with DAA concepts such as **Quick Sort, Priority Queue, and Linear Search**.
 
-## ✨ Features
+## ✨ Featuressssss
 
 - 📊 **Dashboard** – Overview of flights, passengers and boarding status
 - ✈️ **Flight Management** – Flight details, schedule, gate and status
